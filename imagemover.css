@@ -1,0 +1,54 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+    color: #333;
+    text-align: center;
+}
+
+/* Header Styles */
+h1 {
+    color: #4CAF50;
+    margin-top: 20px;
+}
+
+img#memeImage {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: auto;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+/* Button Styles */
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #ebe5e5;
+    background-color: #0581eee0;
+    border: solid;
+    cursor: pointer;
+}
+
+button:disabled {
+    background-color: #ccc;
+}
+
+/* Content Styles */
+.content {
+    padding: 20px;
+}
+
+h2 {
+    color: #0581eee0;
+}
+p
+{
+    color: #0581eee0;
+    margin-top: 20px;
+}
